@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "首页",
+  "usingComponents": {
+    "banner": "/components/pages/index/banner",
+    "tech-field": "/components/pages/index/techField",
+    "introduce": "/components/pages/index/Introduce"
+  }
+}

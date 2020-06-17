@@ -13,5 +13,6 @@
 </script>
 
 <style>
-	/*每个页面公共css */
+/* CSS */
+@import url("./common/css/common.css"); 
 </style>

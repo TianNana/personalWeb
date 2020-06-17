@@ -1,0 +1,18 @@
+.skill.data-v-399b03f1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.skill .skillItem.data-v-399b03f1 {
+  width: 25%;
+  height: 200rpx;
+  text-align: center;
+  line-height: 200rpx;
+  color: #666;
+  font-size: 28rpx;
+  border: 1px solid #eee;
+  background: #fff;
+}
+

@@ -13,5 +13,77 @@
 
 
 
-/*每个页面公共css */
+/* CSS */
+page,
+view,
+scroll-view,
+text{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+page {
+    height: 100%;
+    background-color: #F9F9F9;
+}
+@-webkit-keyframes rotation{
+from {-webkit-transform: rotate(0deg);}
+to {-webkit-transform: rotate(360deg);}
+}
+.route-img{
+    -webkit-transform: rotate(360deg);
+    animation: rotation 1s linear infinite;
+    -moz-animation: rotation 1s linear infinite;
+    -webkit-animation: rotation 1s linear infinite;
+    -o-animation: rotation 1s linear infinite;
+}
+.uni-ellipsis
+{
+    overflow: hidden;
+
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.uni-ellipsis-2
+{
+    display: -webkit-box;
+    overflow: hidden;
+
+    white-space: normal !important;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.clear{
+    clear:both;
+    overflow:hidden;
+    zoom:1;
+}
+.fl{
+    float:left
+}
+.fr{
+    float:right
+}
+.mui-ellipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+.mui-ellipsis-2 {
+    display: -webkit-box;
+    overflow: hidden;
+    white-space: normal!important;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical
+}
+/* 超出省略号 */
+.ellipsis {
+    white-space:nowrap;/*规定段落中的文本不进行换行*/
+    overflow:hidden;/*内容会被修剪，并且其余内容是不可见的。*/
+    text-overflow:ellipsis;/*显示省略号来代表被修剪的文本*/
+} 
 

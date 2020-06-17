@@ -1,6 +1,8 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/tabBar/index/index",
+    "pages/tabBar/skill/skill",
+    "pages/tabBar/case/case"
   ],
   "subPackages": [],
   "window": {
@@ -8,6 +10,31 @@
     "navigationBarTitleText": "uni-app",
     "navigationBarBackgroundColor": "#F8F8F8",
     "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#02B095",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/tabBar/index/index",
+        "iconPath": "static/tabBar/index.png",
+        "selectedIconPath": "static/tabBar/indexActive.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tabBar/skill/skill",
+        "iconPath": "static/tabBar/skill.png",
+        "selectedIconPath": "static/tabBar/skillActive.png",
+        "text": "技能"
+      },
+      {
+        "pagePath": "pages/tabBar/case/case",
+        "iconPath": "static/tabBar/case.png",
+        "selectedIconPath": "static/tabBar/caseActive.png",
+        "text": "案例"
+      }
+    ]
   },
   "usingComponents": {}
 }
