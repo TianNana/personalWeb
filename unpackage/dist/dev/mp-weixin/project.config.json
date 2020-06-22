@@ -36,8 +36,8 @@
 			"list": [
 				{
 					"id": -1,
-					"name": "pages/sharePage/share",
-					"pathName": "pages/sharePage/share",
+					"name": "pages/tabBar/index/index",
+					"pathName": "pages/tabBar/index/index",
 					"query": "scene=1234",
 					"scene": null
 				},
