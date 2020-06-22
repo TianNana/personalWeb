@@ -3,6 +3,7 @@
   "usingComponents": {
     "banner": "/components/pages/index/banner",
     "tech-field": "/components/pages/index/techField",
-    "introduce": "/components/pages/index/Introduce"
+    "introduce": "/components/pages/index/Introduce",
+    "share-more-peo-ple": "/components/pages/index/shareMorePeoPle"
   }
 }

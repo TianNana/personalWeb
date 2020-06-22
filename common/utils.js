@@ -193,20 +193,6 @@ export let toast = {
 }
 
 export let modal = {
-	goLogin:(url = '/pages/login/login')=>{
-		uni.showModal({
-			title:'提示',
-			content:'需要微登录后才能使用, 请先登录',
-			success:function(res){
-				if (res.confirm) {
-                    routerer.goPage('navigateTo',{
-						url: url
-                    })
-				} else {
-				}
-			}
-		})
-	},
 	errorBack : (config={}) => {
 		uni.showModal({
             title:config.title || '',

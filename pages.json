@@ -1,5 +1,5 @@
 {
-	"pages": [
+	"pages": [ 
 		{
 			"path": "pages/tabBar/index/index",
 			"style": {
@@ -16,6 +16,12 @@
 			"path": "pages/tabBar/case/case",
 			"style": {
 				"navigationBarTitleText": "案例"
+			}
+		},
+		{
+			"path": "pages/sharePage/share",
+			"style": {
+				"navigationBarTitleText": "分享"
 			}
         }
 	],

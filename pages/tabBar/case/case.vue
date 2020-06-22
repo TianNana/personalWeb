@@ -5,8 +5,10 @@
 </template>
 
 <script>
-	import { media } from '@/common/utils.js'
+	import { media } from '@/common/utils.js';
+	import shareWXMixins from '@/public/shareWXMixins';
  	export default {
+		mixins:[shareWXMixins],
 		data() {
 			return {
 				 

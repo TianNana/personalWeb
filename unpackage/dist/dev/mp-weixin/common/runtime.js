@@ -104,11 +104,11 @@
 /******/
 /******/
 /******/ 		// mini-css-extract-plugin CSS loading
-/******/ 		var cssChunks = {"components/pages/index/Introduce":1,"components/pages/index/banner":1,"components/pages/index/techField":1};
+/******/ 		var cssChunks = {"components/pages/index/Introduce":1,"components/pages/index/banner":1,"components/pages/index/shareMorePeoPle":1,"components/pages/index/techField":1};
 /******/ 		if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 		else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 			promises.push(installedCssChunks[chunkId] = new Promise(function(resolve, reject) {
-/******/ 				var href = "" + ({"components/pages/index/Introduce":"components/pages/index/Introduce","components/pages/index/banner":"components/pages/index/banner","components/pages/index/techField":"components/pages/index/techField"}[chunkId]||chunkId) + ".wxss";
+/******/ 				var href = "" + ({"components/pages/index/Introduce":"components/pages/index/Introduce","components/pages/index/banner":"components/pages/index/banner","components/pages/index/shareMorePeoPle":"components/pages/index/shareMorePeoPle","components/pages/index/techField":"components/pages/index/techField"}[chunkId]||chunkId) + ".wxss";
 /******/ 				var fullhref = __webpack_require__.p + href;
 /******/ 				var existingLinkTags = document.getElementsByTagName("link");
 /******/ 				for(var i = 0; i < existingLinkTags.length; i++) {

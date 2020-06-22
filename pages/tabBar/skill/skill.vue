@@ -5,8 +5,9 @@
 </template>
 
 <script>
-	 
+	import shareWXMixins from '@/public/shareWXMixins'; 
 	export default {
+		mixins:[shareWXMixins],
 		data() {
 			return {
 				skillData:['html','css','js','vue','electron','uni-app','git','canvas','jquery','less']

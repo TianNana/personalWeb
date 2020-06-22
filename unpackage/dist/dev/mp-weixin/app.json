@@ -2,7 +2,8 @@
   "pages": [
     "pages/tabBar/index/index",
     "pages/tabBar/skill/skill",
-    "pages/tabBar/case/case"
+    "pages/tabBar/case/case",
+    "pages/sharePage/share"
   ],
   "subPackages": [],
   "window": {
