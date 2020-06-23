@@ -17,7 +17,7 @@
         methods: { 
             goSharePage(){
                 this.$routerer.goPage('navigateTo',{
-                    url:'/pages/sharePage/share' 
+                    url:'/pages/painter/painter' 
                 })
             }
         }

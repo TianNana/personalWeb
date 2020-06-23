@@ -1,0 +1,4 @@
+node_modules/
+unpackage/
+unpackage/*
+unpackage/dist/dev/mp-weixin/app.json

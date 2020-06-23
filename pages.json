@@ -19,9 +19,12 @@
 			}
 		},
 		{
-			"path": "pages/sharePage/share",
+			"path": "pages/painter/painter",
 			"style": {
-				"navigationBarTitleText": "分享"
+				"navigationBarTitleText": "分享",
+				"usingComponents":{
+                    "painter":"/wxcomponents/painter/painter"
+                }
 			}
         }
 	],
