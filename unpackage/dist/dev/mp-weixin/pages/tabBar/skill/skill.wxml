@@ -1,1 +1,0 @@
-<view class="skill data-v-399b03f1"><block wx:for="{{skillData}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="skillItem data-v-399b03f1">{{item}}</view></block></view>
