@@ -177,8 +177,7 @@ export let toast = {
 	},
 	error:(message = '网络繁忙',duration = 3000)=>{
 		uni.showToast({
-			title: message,
-            // image: '/static/toastError.png',
+			title: message, 
             icon:'none',
 			duration: duration
 		});
