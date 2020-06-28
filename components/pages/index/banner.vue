@@ -1,6 +1,6 @@
 <template>
     <view class='bannerBox'>
-        <image class='banner' src='/static/index/banner.png'></image>
+        <image class='banner' mode= 'widthFix' src='/static/index/banner.png'></image>
     </view>
 </template>
 
@@ -19,8 +19,7 @@
 </script>
 
 <style lang="less" scoped> 
-    .banner {
-        height: 300rpx;
+    .banner { 
         width: 100%;
     } 
 </style>

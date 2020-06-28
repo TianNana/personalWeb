@@ -1,8 +1,8 @@
 <template>
     <view class='share'>
-        <image class='codeImg' src='/static/share/share.png'></image>
+        <image class='codeImg' src='/static/share/shareImg.png' mode= 'widthFix'></image>
         <text class='describe'>我是一名前端工程师，分享让更多人了解我吧</text>
-        <view class='btArea'> 
+        <view class='btArea'>  
             <button open-type="share" class='shareWX shareButton'>
                 <image src='/static/share/shareWX.png' mode="widthFix"></image>
                 <text>微信</text>
@@ -10,8 +10,8 @@
             <view class='shareWX'  @tap="setPainter">
                 <image src='/static/share/download.png' mode="widthFix"></image>
                 <text>相册</text>
-            </view>
-        </view> 
+            </view>  
+        </view>
         <painter class="painter"
             @imgOK="onImgOk"
             @imgErr="onImgErr"
@@ -86,17 +86,18 @@ import Palette from "./palette";
         flex-wrap:wrap;
         flex-direction: column;
         align-items: center;
+        .con {
+            border:1px solid #f5f5f5;
+        }
         .codeImg {
-            width: 170px;
-            height: 170px;
-            border-radius: 5%;
-            margin-top: 180rpx;
+            width: 100%;  
+            margin-top: 20rpx;
 
         }
         .describe {
             color: #888888;
             font-size: 28rpx; 
-            margin: 50rpx 0;
+            margin: 100rpx 0 50rpx 0;
 
         }
         .btArea {

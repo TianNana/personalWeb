@@ -1,6 +1,9 @@
 <template>
     <view class='shareMorePeoPle'>
-        <view class='title' @tap='goSharePage'>让更多的人了解我吧</view> 
+        <view class='title' @tap='goSharePage'>
+            <image class='titleIcon' src='/static/index/share.png' mode= 'widthFix'></image>
+            <text>让更多的人了解我吧~</text>
+        </view> 
     </view>
 </template>
 
@@ -32,12 +35,16 @@
         margin-top: 20rpx;
         .title {
             display: inline-block;
-            text-align: center;
             color:#333;
             width: 100%; 
             font-size: 36rpx;
             margin-bottom: 24rpx;
-            font-weight: bold;
+            padding-left: 20rpx;
+            display: flex;
+            align-items: center; 
+            .titleIcon {
+                width: 60rpx;
+            }
         } 
     } 
 </style>

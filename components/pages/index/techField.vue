@@ -44,13 +44,16 @@
         padding: 30rpx 0 50rpx 0; 
         margin-top: 20rpx;
         .title {
-            display: inline-block;
+            display: inline-block; 
             text-align: center;
             color:#333;
             width: 100%; 
             font-size: 36rpx;
-            margin-bottom: 24rpx;
-            font-weight: bold;
+            margin-bottom: 30rpx;
+            font-weight: bold; 
+            padding-left: 20rpx;
+            border-bottom: 1rpx dashed #f2f2f2;
+            padding-bottom: 24rpx;
         }
         .techBox {
             display: flex;

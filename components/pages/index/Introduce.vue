@@ -1,6 +1,6 @@
 <template>
     <view class='Introduce'>
-        <text class='title'>我</text>
+        <text class='title'>个人资料</text>
         <view class='techBox'>
             <text class='name textCon'>姓名：娜娜</text>
             <text class='name textCon'>出生日期：1991-03-07</text>
@@ -40,9 +40,13 @@
             font-size: 36rpx;
             margin-bottom: 24rpx;
             font-weight: bold;
+            padding-left: 20rpx;
+            border-bottom: 1rpx dashed #f2f2f2;
+            padding-bottom: 24rpx;
+
         }
         .techBox {
-            padding: 20rpx;
+            padding: 20rpx 30rpx;
             .textCon {
                 display: block;
                 font-size: 28rpx;
