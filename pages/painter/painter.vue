@@ -1,7 +1,12 @@
 <template>
     <view class='share'>
         <image class='codeImg' src='/static/share/shareImg.png' mode= 'widthFix'></image>
-        <text class='describe'>我是一名前端工程师，分享让更多人了解我吧</text>
+        <text class='describe'>一个名叫娜娜的女生</text> 
+        <text class='describe'>2013年毕业于河北科技师范学院计算机应用技术专业</text>
+        <text class='describe'>2013~2016从事于网页设计</text>
+        <text class='describe'>2017年转行做前端开发工程师</text>
+        <text class='describe'>现在</text>
+        <text class='describe'>她是一名前端工程师，做着她喜欢的工作</text>
         <view class='btArea'>  
             <button open-type="share" class='shareWX shareButton'>
                 <image src='/static/share/shareWX.png' mode="widthFix"></image>
@@ -92,18 +97,22 @@ import Palette from "./palette";
         .codeImg {
             width: 100%;  
             margin-top: 20rpx;
+            margin-bottom: 20px;
 
         }
         .describe {
             color: #888888;
-            font-size: 28rpx; 
-            margin: 100rpx 0 50rpx 0;
-
+            font-size: 28rpx;
+            width: 90%;
+            text-align: center;
+            line-height: 57rpx;
+            border-bottom: 1px dashed #ddd;
         }
         .btArea {
             display: flex;
             justify-content: space-between;
             width: 80%;
+            margin-top: 80rpx;
             .shareButton{
                 padding: 0;
                 margin: 0;

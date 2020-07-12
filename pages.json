@@ -9,7 +9,7 @@
 		{
 			"path": "pages/tabBar/skill/skill",
 			"style": {
-				"navigationBarTitleText": "技能"
+				"navigationBarTitleText": "技能墙"
 			}
 		},
 		{

@@ -6,7 +6,7 @@
             <text class='name textCon'>出生日期：1991-03-07</text>
             <text class='phone textCon'>电话：187****1465</text>
             <text class='email textCon'>邮箱：100****362@qq.com</text>
-            <text class='workYear textCon'>工作经验：6年</text>
+            <text class='workYear textCon'>工作经验：7年</text>
         </view> 
     </view>
 </template>
