@@ -3,8 +3,8 @@
         <image class='codeImg' src='/static/share/shareImg.png' mode= 'widthFix'></image>
         <text class='describe'>一个名叫娜娜的女生</text> 
         <text class='describe'>2013年毕业于河北科技师范学院计算机应用技术专业</text>
-        <text class='describe'>2013~2016从事于网页设计</text>
-        <text class='describe'>2017年转行做前端开发工程师</text>
+        <text class='describe'>2013~2015年中从事于UI设计</text>
+        <text class='describe'>2015年未转行做前端开发工程师</text>
         <text class='describe'>现在</text>
         <text class='describe'>她是一名前端工程师，做着她喜欢的工作</text>
         <view class='btArea'>  

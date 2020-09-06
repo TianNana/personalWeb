@@ -4,9 +4,9 @@
         <view class='techBox'>
             <text class='name textCon'>姓名：娜娜</text>
             <text class='name textCon'>出生日期：1991-03-07</text>
-            <text class='phone textCon'>电话：187****1465</text>
-            <text class='email textCon'>邮箱：100****362@qq.com</text>
-            <text class='workYear textCon'>工作经验：7年</text>
+            <text class='phone textCon'>电话：18730301465</text>
+            <text class='email textCon'>邮箱：tianyana187@163.com</text>
+            <text class='workYear textCon'>工作经验：5年前端+2年UI</text>
         </view> 
     </view>
 </template>

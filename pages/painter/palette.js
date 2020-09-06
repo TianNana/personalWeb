@@ -6,8 +6,8 @@ export default class Palette {
     }
     palette2 () {
         return ({
-            width:'592rpx',
-            height:'960rpx',
+            width:'400rpx',
+            height:'400rpx',
             background: '#FFFFFF',
             borderRadius:'20rpx',
             views:[
@@ -17,8 +17,6 @@ export default class Palette {
                     css: {
                         width:'400rpx',
                         height:'400rpx',
-                        top: '330rpx',
-                        left:'84rpx',
                         mode:'aspectFill'
                     },
                 } 
