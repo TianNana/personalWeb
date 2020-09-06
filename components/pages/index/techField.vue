@@ -2,7 +2,7 @@
     <view class='techField'>
         <text class='title'>开发领域</text>
         <view class='techBox'>
-            <view v-for='item in techFieldData' :key='item.id' class='techItem'>
+            <view v-for='item in techFieldData' :key='item.id' class='techItem' @click='goCasePage'>
                 <image class='techIcon' :src='item.src'></image>
                 <text class= 'techName'>{{item.name}}</text>
             </view> 
@@ -33,6 +33,11 @@
            
         },
         methods: { 
+            goCasePage(){
+                this.$routerer.goPage('switchTab',{
+                    url:'/pages/tabBar/case/case' 
+                })
+            }
         }
 	}
 </script>
