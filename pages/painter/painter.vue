@@ -34,9 +34,6 @@ import Palette from "./palette";
                 image:'',
             }
         },
-        create(){
-           
-        },
         watch: {
             image (newV) {
                 if (newV) {
